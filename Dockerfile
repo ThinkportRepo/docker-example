@@ -26,6 +26,6 @@ ENV LOCATION Frankfurt
 # ENTRYPOINT you to configure a container that will run as an executable
 ENTRYPOINT [ "node", "server.js" ]
 
-# CMD let you to provide default parameters
-# which will be overrode if you `docker run <image> <other parameters>`
+# CMD let you to provide default arguments
+# which will be overrode if you `docker run <image> <other arguments>`
 CMD [ "Yinchi", "Luo" ]
