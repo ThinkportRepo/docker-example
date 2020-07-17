@@ -8,6 +8,13 @@ Build docker image based on the current workdir (denoted by `.`) by following th
 docker build -t hughluo/docker-example:1.0.0 .
 ```
 
+## Push to Docker Hub
+```
+docker login
+```
+```
+docker push hughluo/docker-example:1.0.0
+```
 
 ## Run container based on the image
  
